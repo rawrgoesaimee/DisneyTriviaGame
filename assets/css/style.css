@@ -1,0 +1,79 @@
+:root {
+    background-image: url("../images/castle.jpg");
+    --font-color: #fff;
+    --question-color: #60a89f;
+  }
+  
+body, html {
+    display: flex;
+    justify-content: center;
+    color: var(--font-color);
+    height: 100%;
+    width: 100%;
+  }
+
+#disneyLogo {
+    height: 300px;
+    width: 500px;
+}
+
+.titleName {
+    font-size: 100px;
+    color: black;
+    background-color: #fff;
+    }
+
+.timer{
+    font-size: 50px;
+    color: black;
+    background-color: #fff;
+    background-blend-mode: lighten;
+}
+  .container {
+    text-align: center;
+    width: 75%;
+    height: 100%;
+  }
+  
+  .title {
+    margin-bottom: 12px;
+  }
+  
+  /* #quizQuestions {} */
+  
+  #quizResults {
+    background-color: pink;
+    margin: 0 10px 10px;
+  }
+  
+  .quizQuestions--question {
+    background-color: var(--question-color);
+    margin: 0 10px 10px;
+    padding: 21px 21px;
+    text-align: left;
+    fill-opacity: 0.5, var(--question-color);
+  }
+  
+  .quizQuestions--question > p {
+    line-height: 30px;
+    font-weight: 700;
+  }
+  
+  input, button, submit { 
+    border: none; 
+  } 
+
+  
+  /* #quizQuestions--btn {} */
+
+  #quizQuestions--btn {
+    font-size: 50px;
+    background-color: pink;
+  }
+
+  /* #quizResults{} */
+
+  #quizResults {
+      font-size: 30px;
+      color: black;
+  }

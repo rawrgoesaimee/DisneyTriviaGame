@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Disney Trivia Game</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="title">
+      <img id= "disneyLogo" src="assets/images/disneyLogo.png" alt="Disney Logo">
+      <h1 class = "titleName">Disney Trivia Game</h1>
+      <h3 class = "timer">Time Remaining: <span id="countdown">60</span></h3>
+    </header>
+    <!-- Dynamically created quiz questions section -->
+    <main id="quizQuestions" class="block">
+      <form id="form"></form>
+      <button type="submit" form="form" id="quizQuestions--btn">Check Answers</button>
+    </main>
+    <!-- Quiz results section -->
+    <div id="quizResults" class="block">
+      <ul>
+        <li>Correct Answers: <span id="correct">0</span></li>
+        <li>Incorrect Answers: <span id="incorrect">0</span></li>
+        <li>Unanswered: <span id="unanswered">0</span></li>
+      </ul>
+    </div>
+  </div>
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>
