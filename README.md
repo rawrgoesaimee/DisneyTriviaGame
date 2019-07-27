@@ -1,5 +1,4 @@
 # DisneyTriviaGame
-# Disney Trivia Game
 Test your knowledge of Disney and Disneyland with this multiple choice trivia game.
 
 
